@@ -196,3 +196,16 @@ button.cairo{
 body.dark .copyright{
     color: white;
 }
+@media (max-width:700px){
+    .copyright {
+        margin: 20px auto;
+        width: 200px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright a{
+        margin-bottom: 20px;
+        line-height: 2;
+    }
+}
